@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Appdock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="themes/appdock.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,600" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+body {font-family: 'Raleway', sans-serif;}
+
+.bkg {background-image: url(img/bkg.jpg);background-repeat:no-repeat;background-size:cover;}
+
+.ui-panel-wrapper {background-image: url(img/bkg.jpg);background-repeat:no-repeat;background-size:cover;}
+
+#page2 > div:nth-child(5), #page3 > div:nth-child(5), #orange > div:nth-child(5) {background:none !important;}
+
+#apps div {float:left;width:30%;margin:10px;padding:15px}
+
+#apps div:hover {background-color:#603813;color:#fff;}
+
+#apps h5 {text-align:center;}
+
+#oneapp {width:100%;}
+
+</style>
+</head>
+
+<body>
+
+
+<!-- PAGE ONE -->
+
+
+<div id="main" data-role="page" >
+  
+<div data-role="panel" id="mypanel" data-display="push" style="background-color:#603813 !important;">
+     <h3 style="color:#fff;">Categories <a href="#" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" data-inline="true"></a>
+   </h3>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Books</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Business</h3>
+  <p>App Name</p>
+</div>
+	 
+	  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Education</h3>
+  <p>App Name</p>
+</div> 	
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Entertainment</h3>
+  <p>App Name</p>
+</div>
+		
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Health</h3>
+  <p>App Name</p>
+</div>
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Music &amp; Video</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>News &amp; Magazine</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Sports</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Travel</h3>
+  <p>App Name</p>
+</div>
+   
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Others</h3>
+  <p>App Name</p>
+</div>
+
+
+</div>
+<div style="text-align:center;padding-top:15px;border-top:10px solid #2D4F00 ">
+<img src="img/Logo.png" width="250" height="79" alt="AppDock">
+</div>
+<form  style="width:80%;margin:0 auto 30px">
+    <input id="cat" data-type="search" placeholder="Search Apps by Name" >
+</form>
+
+<div
+  class="ui-controlgroup ui-controlgroup-vertical ui-corner-all"
+  data-role="controlgroup"
+  data-filter="true"
+  data-input="#cat"
+  data-filter-reveal="true"
+  data-enhanced="true">
+  <div class="ui-controlgroup-controls">
+    <a href="#orange" class="ui-screen-hidden" data-role="button">Orange Money</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App2</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App3</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App4</a>
+  </div>
+</div>
+
+
+
+
+		
+
+<div data-role="header" data-theme="a">
+  
+      <a href="#mypanel" data-icon="bars" data-iconpos="notext" data-inline="true"></a>
+         
+ 
+    
+  </div>
+	
+<div data-role="content" >
+     
+	 <h1 style="text-align:center;color:#fff;font-weight:300;font-size:48px;line-height:40px;text-shadow:3px 3px 3px #2D4F00">Welcome to Appdock</h1>
+  </div>
+  
+
+	
+	  <div data-role="footer" data-position="fixed" data-theme="a">
+      <div data-role="navbar">
+    <ul>
+      <li><a href="#main" data-icon="home"></a></li>
+      <li><a href="#page2" data-icon="grid"></a></li>
+       <li><a href="#page3" data-icon="info"></a></li>
+       <li><a href="#" data-icon="comment"></a></li>
+    </ul>
+  </div><!-- /navbar -->
+	
+	<p style="font-size:12px;text-align:center;font-weight:normal">&copy; 2015. All rights Reserved</p>
+	
+	</div> 
+
+
+	</div>
+    
+  
+
+    
+
+
+
+<!--PAGE TWO-->
+    
+<div id="page2" data-role="page" style="background:none !important">
+  
+<div data-role="panel" id="mypanel2" data-display="push" style="background-color:#603813 !important;">
+     <h3 style="color:#fff;">Categories <a href="#" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" data-inline="true"></a></h3>
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Books</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Business</h3>
+  <p>App Name</p>
+</div>
+	 
+	  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Education</h3>
+  <p>App Name</p>
+</div> 	
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Entertainment</h3>
+  <p>App Name</p>
+</div>
+		
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Health</h3>
+  <p>App Name</p>
+</div>
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Music &amp; Video</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>News &amp; Magazine</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Sports</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Travel</h3>
+  <p>App Name</p>
+</div>
+   
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Others</h3>
+  <p>App Name</p>
+</div>
+
+
+</div>
+<div style="text-align:center;padding-top:15px;border-top:10px solid #2D4F00 ">
+<a href="#main"><img src="img/Logo.png" width="250" height="79" alt="AppDock"></a>
+</div>
+<form  style="width:80%;margin:0 auto 30px">
+    <input id="cat2" data-type="search" placeholder="Search Apps by Name" >
+</form>
+
+<div
+  class="ui-controlgroup ui-controlgroup-vertical ui-corner-all"
+  data-role="controlgroup"
+  data-filter="true"
+  data-input="#cat2"
+  data-filter-reveal="true"
+  data-enhanced="true">
+  <div class="ui-controlgroup-controls">
+    <a href="#" class="ui-screen-hidden" data-role="button">Orange Money</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App2</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App3</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App4</a>
+  </div>
+</div>
+
+<!-- /panel -->
+
+
+		
+
+<div data-role="header" data-theme="a">
+  
+      <a href="#mypanel2" data-icon="bars" data-iconpos="notext"></a>
+         
+    
+  </div>
+	
+<div data-role="content" >
+     
+    <h1 style="text-align:center;">Featured Apps</h1>
+    
+    <div id="apps">
+    
+    <div><a href="#orange"><img src="img/orangemoney-business.png" width="100%" height="auto" alt="Orange Money"></a><h5>Orange Money</h5></div>
+    <div><img src="img/expat-shopping.png" width="100%" height="auto" alt="Expat Shopping"><h5>Expat Shopping</h5></div>
+    <div><img src="img/senegalradio-music.png" width="100%" height="auto" alt="Senegal Radio"><h5>Senegal Radio</h5></div>
+    <div><img src="img/senego-news.png" width="100%" height="auto" alt="Senego News"><h5>Senego News</h5></div>
+    <div><img src="img/senenews-news.png" width="100%" height="auto" alt="SeneNews"><h5>SeneNews</h5></div>
+    <div><img src="img/senmap-travel.png" width="100%" height="auto" alt="Senmap"><h5>SenMap</h5></div>
+    <div><img src="img/talibi-transportation.png" width="100%" height="auto" alt="Talibi"><h5>Talibi</h5></div>
+    <div><img src="img/teere-education.png" width="100%" height="auto" alt="Teere"><h5>Teere</h5></div>
+    
+    
+    </div>
+	 
+  </div>
+  
+
+	
+	  <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+    <ul>
+      <li><a href="#main" data-icon="home"></a></li>
+      <li><a href="#page2" data-icon="grid"></a></li>
+       <li><a href="#page3" data-icon="info"></a></li>
+       <li><a href="#" data-icon="comment"></a></li>
+    </ul>
+  </div><!-- /navbar -->
+	
+	<p style="font-size:12px;text-align:center;font-weight:normal">&copy; 2015. All rights Reserved</p>
+	
+	</div> 
+
+
+	</div>
+
+	
+    
+    <!--PAGE THREE-->
+    
+<div id="page3" data-role="page" style="background:none !important">
+  
+<div data-role="panel" id="mypanel3" data-display="push" style="background-color:#603813 !important;">
+     <h3 style="color:#fff;">Categories <a href="#" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" data-inline="true"></a></h3>
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Books</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Business</h3>
+  <p>App Name</p>
+</div>
+	 
+	  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Education</h3>
+  <p>App Name</p>
+</div> 	
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Entertainment</h3>
+  <p>App Name</p>
+</div>
+		
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Health</h3>
+  <p>App Name</p>
+</div>
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Music &amp; Video</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>News &amp; Magazine</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Sports</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Travel</h3>
+  <p>App Name</p>
+</div>
+   
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Others</h3>
+  <p>App Name</p>
+</div>
+
+
+</div>
+<div style="text-align:center;padding-top:15px;border-top:10px solid #2D4F00 ">
+<a href="#main"><img src="img/Logo.png" width="250" height="79" alt="AppDock"></a>
+</div>
+<form  style="width:80%;margin:0 auto 30px">
+    <input id="cat3" data-type="search" placeholder="Search Apps by Name" >
+</form>
+
+<div
+  class="ui-controlgroup ui-controlgroup-vertical ui-corner-all"
+  data-role="controlgroup"
+  data-filter="true"
+  data-input="#cat3"
+  data-filter-reveal="true"
+  data-enhanced="true">
+  <div class="ui-controlgroup-controls">
+    <a href="#orange" class="ui-screen-hidden" data-role="button">Orange Money</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App2</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App3</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App4</a>
+  </div>
+</div>
+
+<!-- /panel -->
+
+
+		
+
+<div data-role="header" data-theme="a">
+  
+      <a href="#mypanel3" data-icon="bars" data-iconpos="notext"></a>
+         
+   
+<!-- /navbar -->
+    
+  </div>
+	
+<div data-role="content" >
+     <h1> About Appdock</h1>
+     
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien risus. Aliquam a ante lacus. Mauris ac convallis ligula, et cursus diam. Integer tincidunt commodo sem nec auctor. Curabitur aliquet, lacus sit amet interdum gravida, dui leo egestas est, vitae rhoncus eros odio non velit. Nunc a scelerisque tellus. Mauris pretium nibh id sapien iaculis egestas ac eu odio. </p>
+     
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien risus. Aliquam a ante lacus. Mauris ac convallis ligula, et cursus diam. Integer tincidunt commodo sem nec auctor. Curabitur aliquet, lacus sit amet interdum gravida, dui leo egestas est, vitae rhoncus eros odio non velit. Nunc a scelerisque tellus. Mauris pretium nibh id sapien iaculis egestas ac eu odio. </p>
+	 
+  </div>
+  
+
+	
+	  <div data-role="footer" data-position="fixed">
+   <div data-role="navbar">
+    <ul>
+      <li><a href="#main" data-icon="home"></a></li>
+      <li><a href="#page2" data-icon="grid"></a></li>
+       <li><a href="#page3" data-icon="info"></a></li>
+       <li><a href="#" data-icon="comment"></a></li>
+    </ul>
+  </div><!-- /navbar -->
+	
+	<p style="font-size:12px;text-align:center;font-weight:normal">&copy; 2015. All rights Reserved</p>
+	
+	</div> 
+
+
+	</div>
+
+<!-- ORANGE APP -->
+
+<div id="orange" data-role="page" style="background:none !important">
+  
+<div data-role="panel" id="mypanel4" data-display="push" style="background-color:#603813 !important;">
+     <h3 style="color:#fff;">Categories <a href="#" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" data-inline="true"></a></h3>
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Books</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Business</h3>
+  <p>App Name</p>
+</div>
+	 
+	  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Education</h3>
+  <p>App Name</p>
+</div> 	
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Entertainment</h3>
+  <p>App Name</p>
+</div>
+		
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Health</h3>
+  <p>App Name</p>
+</div>
+	
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Music &amp; Video</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>News &amp; Magazine</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Sports</h3>
+  <p>App Name</p>
+</div>
+
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Travel</h3>
+  <p>App Name</p>
+</div>
+   
+  <div data-role="collapsible" data-theme="b" data-content-theme="b">
+  <h3>Others</h3>
+  <p>App Name</p>
+</div>
+
+
+</div>
+<div style="text-align:center;padding-top:15px;border-top:10px solid #2D4F00 ">
+<a href="#main"><img src="img/Logo.png" width="250" height="79" alt="AppDock"></a>
+</div>
+<form  style="width:80%;margin:0 auto 30px">
+    <input id="cat4" data-type="search" placeholder="Search Apps by Name" >
+</form>
+
+<div
+  class="ui-controlgroup ui-controlgroup-vertical ui-corner-all"
+  data-role="controlgroup"
+  data-filter="true"
+  data-input="#cat4"
+  data-filter-reveal="true"
+  data-enhanced="true">
+  <div class="ui-controlgroup-controls">
+    <a href="#" class="ui-screen-hidden" data-role="button">Orange Money</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App2</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App3</a>
+    <a href="#" class="ui-screen-hidden" data-role="button">App4</a>
+  </div>
+</div>
+
+<!-- /panel -->
+
+
+		
+
+<div data-role="header" data-theme="a">
+  
+      <a href="#mypanel4" data-icon="bars" data-iconpos="notext"></a>
+         
+    
+  </div>
+	
+<div data-role="content" >
+     
+    <h1 style="text-align:center;">Orange Money</h1>
+    
+    <div id="oneapp">
+    
+    <div><a href="#orange"><img src="img/orangemoney-business.png" width="100%" height="auto" alt="Orange Money"></a></div>
+ 
+<h4 style="background-color:#603813;color:#fff;width:100%;padding:5px;"> Statistics</h4>
+
+<ul style="margin:0;padding:0;list-style-type:none">
+<li><strong>Developer:</strong> DEV SONATEL</li> 
+<li><strong>Ratings:</strong> 4.2</li>
+<li><strong>Downloads:</strong> 10,000 - 50,000 </li>
+<li><strong>Updated:</strong> September 18, 2015</li>
+<li><strong>Price:</strong> Free</li>
+</ul><strong>URL: </strong><a href=" http://bit.ly/orangemoney">http://bit.ly/orangemoney</a></div>
+
+
+<p>Orange Money is an innovative means of payment by mobile phone that allows Orange customers to make the following financial transactions:</p>
+
+<ul>
+<li>The deposit and withdrawal of money</li>
+<li>The transfer of money from the owners,</li>
+<li>Payment of invoice (telephone, electricity, water ...)</li>
+<li>The purchase of goods and services in some shops,</li>
+<li>The purchase of airtime Orange.</li>
+</ul>
+
+
+
+
+    
+    
+    </div>
+	 
+  
+<a href="#" data-role="button">Rate it!</a>
+	
+	  <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+    <ul>
+      <li><a href="#main" data-icon="home"></a></li>
+      <li><a href="#page2" data-icon="grid"></a></li>
+       <li><a href="#page3" data-icon="info"></a></li>
+       <li><a href="#" data-icon="comment"></a></li>
+    </ul>
+  </div><!-- /navbar -->
+	
+	<p style="font-size:12px;text-align:center;font-weight:normal">&copy; 2015. All rights Reserved</p>
+	
+	</div> 
+
+
+
+	</div>
+
+</body>
+
+</html>
+
+
